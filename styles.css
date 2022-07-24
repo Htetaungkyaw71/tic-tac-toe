@@ -1,0 +1,117 @@
+.home{
+    text-align: center;
+    padding-top: 140px;
+}
+.home h1{
+    font-size: 70px;
+}
+.game{
+    text-align: center;
+    padding-top: 30px;
+}
+.box{
+    /* margin-top: 35px; */
+    margin-bottom: 35px;
+}
+
+
+.play-btn,.back-btn{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+#result{
+    text-align: center;
+    display: none;
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+.back-btn:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.play-btn:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.dis{
+    pointer-events: none;
+}
+.game{
+    display: none;
+}
+.one{
+    background-color: transparent;
+    border: 2px solid black;
+    border-left: none;
+    border-top: none;
+    width: 100px;
+    height: 100px;
+}
+.two{
+    background-color: transparent;
+    border: 2px solid black;
+    border-top: none; 
+    width: 100px;
+    height: 100px;
+}
+.three{
+    background-color: transparent;
+    border: 2px solid black;
+    border-right: none;
+    border-top: none;
+    width: 100px;
+    height: 100px;
+}
+.four{
+    background-color: transparent;
+    border: 2px solid black;
+    border-left: none;
+    width: 100px;
+    height: 100px;
+}
+.five{
+    background-color: transparent;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+.six{
+    background-color: transparent;
+    border: 2px solid black;
+    border-right: none;
+    width: 100px;
+    height: 100px;
+}
+.seven{
+    background-color: transparent;
+    border: 2px solid black;
+    border-left: none;
+    border-bottom: none;
+    width: 100px;
+    height: 100px;
+}
+.eight{
+    background-color: transparent;
+    border: 2px solid black;
+    border-bottom: none;
+    width: 100px;
+    height: 100px;
+}
+.nine{
+    background-color: transparent;
+    border: 2px solid black;
+    border-right: none;
+    border-bottom: none;
+    width: 100px;
+    height: 100px;
+}
+.player{
+    font-size: 40px;
+}
